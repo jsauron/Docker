@@ -1,0 +1,3 @@
+#Lancer un service 42school/marine-squad en 2 repliques, et faites en sorte que le service fonctionne (se référer à la doc fournie dans hub.docker.com). Ce service s’appellera ... marines et sera sur le reseau overmind
+
+docker service create --replicas 2 --network overmind --name marines -e OC_USERNAME=user -e OC_PASSWD=passwd 42school/marine-squad
