@@ -1,0 +1,3 @@
+#Assigner les variables spécifiques à la machine virtuelle Char dans l’env courant de votre terminal, de sorte que vous pouvez lancer la commande docker ps sans erreurs. Une seule commande est attendue pour fixer les 4 variables d’environne- ment et il vous est interdit d’utiliser le builtin de votre shell pour set à la main ces variables.
+
+eval "$(docker-machine env Char)"
